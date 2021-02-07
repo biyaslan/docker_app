@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Simple Flask App - Docker 
 
 Simple app built on Python Flask.
@@ -37,7 +36,3 @@ python3 app/src/server.py
 ```
 
 ## Contributing
-=======
-# docker_app
-Simple Python Flask app - Docker 
->>>>>>> 91832c473497a712b8f6d206593b3fa7508edab6
