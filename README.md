@@ -51,7 +51,7 @@ docker image push <your-image>
 
 Run Container 
 ```bash
-docker container run -d --nama sampleapp -p <hostport>:<5000> <your-image>
+docker container run -d --name sampleapp -p <hostport>:<5000> <your-image>
 ```
 
 ## Contributing
