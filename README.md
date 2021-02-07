@@ -32,7 +32,7 @@ pip3 install -r app/requirements.txt
 Run Application:
 
 ```bash
-python3 app/src/server.py 
+python3.8 app/src/server.py 
 ```
 
 ## Contributing
