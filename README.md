@@ -2,6 +2,21 @@
 
 Simple app built on Python Flask.
 
+## Repository Structure 
+```
+.
+├── Dockerfile
+├── README.md
+└── app
+    ├── requirements.txt
+    └── src
+        ├── server.py
+        └── templates
+            ├── about.html
+            └── index.html
+
+3 directories, 6 files
+```
 ## Prerequisites 
 
 * Linux Server
@@ -53,24 +68,7 @@ Run Container
 ```bash
 docker container run -d --name sampleapp -p <hostport>:<5000> <your-image>
 ```
-## Tree Structure
-.
 
-├── Dockerfile
-
-├── README.md
-
-└── app
-
-    ├── requirements.txt
-
-    └── src
-
-        ├── server.py
-
-        └── templates
-        
-            └── index.html
 
 
 ## Contributing
