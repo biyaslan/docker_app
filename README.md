@@ -53,5 +53,24 @@ Run Container
 ```bash
 docker container run -d --name sampleapp -p <hostport>:<5000> <your-image>
 ```
+## Tree Structure
+.
+
+├── Dockerfile
+
+├── README.md
+
+└── app
+
+    ├── requirements.txt
+
+    └── src
+
+        ├── server.py
+
+        └── templates
+        
+            └── index.html
+
 
 ## Contributing
