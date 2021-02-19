@@ -7,15 +7,17 @@ Simple app built on Python Flask.
 .
 ├── Dockerfile
 ├── README.md
-└── app
-    ├── requirements.txt
-    └── src
-        ├── server.py
-        └── templates
-            ├── about.html
-            └── index.html
+├── app
+│   ├── requirements.txt
+│   └── src
+│       ├── server.py
+│       └── templates
+│           ├── about.html
+│           └── index.html
+└── docker-compose
+    └── docker-compose.yml
 
-3 directories, 6 files
+4 directories, 7 files
 ```
 ## Prerequisites 
 
@@ -69,6 +71,18 @@ Run Container
 docker container run -d --name sampleapp -p <hostport>:<5000> <your-image>
 ```
 
+## Docker-Compose
 
+Chage Directory
+```
+cd docker-compose
+```
+
+* NOTE: modify docker-compose.yml file (optional)
+
+Build Image and Run Container 
+```
+docker-compose up -d --build
+```
 
 ## Contributing
