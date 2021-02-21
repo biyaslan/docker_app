@@ -14,11 +14,23 @@ Simple app built on Python Flask.
 │       └── templates
 │           ├── about.html
 │           └── index.html
-└── docker-compose
-    └── docker-compose.yml
+├── docker-compose
+│   ├── docker-compose-dev.yml
+│   └── docker-compose.yml
+├── dockerfile-dev
+└── files
+    └── index.html
 
-4 directories, 7 files
+5 directories, 10 files
 ```
+
+## Folders
+| Folder  | Description |
+| ------------- | ------------- |
+| [app](app) | Flask Application Code|
+| [docker-compose](docker-compose)  | docker-composer files  |
+| [files](files)  | contains static files for test purposes  |
+
 ## Prerequisites 
 
 * Linux Server
